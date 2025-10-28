@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:maxHeight="150dp"
+    android:minHeight="150dp">
+
+    <ImageView
+        android:id="@+id/videoThumbIV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/videoNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.6"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

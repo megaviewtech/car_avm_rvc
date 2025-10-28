@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/car"
+        android:icon="@drawable/ic_fiber_manual_record_red_500_24dp"
+        android:title="车模设置"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/files"
+        android:icon="@drawable/ic_lock_open_grey_400_48dp"
+        android:title="视频文件"
+        app:showAsAction="always" />
+
+<!--    <item
+        android:id="@+id/record"
+        android:icon="@drawable/ic_camera_alt_grey_400_48dp"
+        android:title="开始录制/停止录制"
+        app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/debug"
+        android:icon="@drawable/ic_local_movies_grey_400_48dp"
+        android:title="工程模式"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings_grey_400_48dp"
+        android:title="系统设置"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_settings_grey_400_48dp"
+        android:title="关于环视"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme_Camera" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme_Camera.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme_Camera.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="set_info_txt">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/settings_text_color</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

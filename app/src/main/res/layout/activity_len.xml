@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:id="@+id/clothCtrl"
+        android:layout_marginLeft="1200px"
+        android:layout_marginTop="200px"
+        android:layout_gravity="left|top"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="BC:"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editLength"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+        <TextView
+            android:id="@+id/cmUnit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            android:textSize="22sp" />
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/carWidthView"
+        android:layout_marginLeft="1800px"
+        android:layout_marginTop="200px"
+        android:layout_gravity="left|top"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/textWidth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"
+            android:text="AB:"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/editWidth"
+            android:layout_width="120px"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            />
+        <TextView
+            android:id="@+id/cmUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"
+            android:text="cm"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="57px"
+        android:layout_marginLeft="370px"
+        android:layout_gravity="top|left" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="22sp"
+            android:text="镜头型号"/>
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="130px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/recordDurationIV"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cloth1" />
+
+    <ImageButton
+        android:id="@+id/autoDebugBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_center"
+        android:src="@drawable/next_step" />
+
+    <ImageButton
+        android:id="@+id/debugBtn"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_button_center"
+        android:src="@drawable/next_step" />
+</FrameLayout>
+

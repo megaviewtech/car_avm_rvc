@@ -1,0 +1,131 @@
+<resources>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">DVR</string>
+    <string name="back">Back</string>
+    <string name="record_quality">录像质量</string>
+    <string name="picture_quality">照相质量</string>
+    <string name="record_duration">录像时间</string>
+    <string name="format_sdcard">Format SDCard</string>
+
+    <string name="default_picture_quality">1080P</string>
+    <string name="default_record_quality">1080P</string>
+    <string name="default_record_duration">1min</string>
+
+    <string name="space_not_enough">Storage not enough</string>
+    <string name="operating_camera">Operating Camera!</string>
+
+    <string name="lock_video">Lock Videos</string>
+    <string name="front_video">Front Videos</string>
+    <string name="back_video">Reverse Videos</string>
+    <string name="picture">Picture</string>
+
+    <string name="commont_settings">Common Settings</string>
+    <string name="front_settings">Front Camera</string>
+    <string name="back_settings">Reverse Camera</string>
+
+    <string name="settings_mute">Mute</string>
+    <string name="settings_watermark">Water Mark</string>
+    <string name="settings_record_quality">视频分辨率</string>
+    <string name="settings_picture_quality">照片分辨率</string>
+    <string name="settings_record_duration">录像时间</string>
+
+    <string name="record_init_time">00:00:00</string>
+
+    <string name="settings_app_auto_start">Auto Start</string>
+    <string name="background_record">Backstage Record</string>
+    <string name="pre_allocation">Pre allocation</string>
+    <string name="pre_allocation_info">
+        存储预分配：\n
+        介绍：录像时为每个录像文件预分配一个固定长度的存储空间。\n
+        如果存储设备的可用空间小于限制的可用空间，则会进行循环  \n
+        删除文件的操作。\n
+        优点：预分配功能会减少存储设备碎片的产生，长时间录像不会 \n
+        导致存储设备的性能下降。\n
+        注意事项：\n
+        1.暂时只支持FAT32格式的存储卡；\n
+        2.选择DVR类型后需要格式化存储设备；\n
+        3.由于每种摄像头的分辨率、比特率、录像时常不一样，所以\n
+        预分配的文件大小不一样。因为这个原因在切换分辨率和时常\n
+        后需要格式化存储设备。
+    </string>
+    <string name="settings_file_storage_path">文件存储路径</string>
+    <string name="dvr_type_choice">DVR Type</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_choice_camera">ChoiceCameraActivity</string>
+    <string name="message_granted">Already got all permissions.</string>
+    <string name="message_denied">Did not got \"%1$s\" permission.</string>
+    <string name="dvr_init">DVR is init...</string>
+    <string name="init_error">DVR init failed!</string>
+    <string name="camera_permission_error">No Camera permission</string>
+    <string name="sure">Ok</string>
+    <string name="start_record">Start Record</string>
+    <string name="record_system_error">Record failed,please restart application</string>
+    <string name="record_storage_error">Record failed,please check storage</string>
+    <string name="record_init_error">Record init failed！</string>
+    <string name="storage_not_enough">Storage not enough</string>
+    <string name="storage_not_exit">Please insert SDcard</string>
+    <string name="no_storage_permission">No storage permission</string>
+    <string name="preview_failed">System Exception，preview failed</string>
+    <string name="preview_failed2">Please insert CVBS Camera</string>
+    <string name="format_failed">Format timeout</string>
+    <string name="open_camera_failed">Open camera failed</string>
+    <string name="take_picture_failed">Tack picture failed</string>
+    <string name="take_picture_success">Take picture success</string>
+    <string name="format_sdcard_alert">Format Sdcard？</string>
+    <string name="please_wait">Please waiting</string>
+
+    <string name="exit_app_alert">Are you sure exit Dvr?</string>
+    <string name="backstage_run">Backstage</string>
+
+    <string-array name="choice_type">
+        <item>Single Camera</item>
+        <item>Two Cameras</item>
+        <item>Four CVBS Cameras</item>
+        <item>Four CSI Camerass</item>
+        <item>Four Splice CVBS Cameras</item>
+        <item>Four Splice CSI Cameras</item>
+        <item>Two Splice double CSI Cameras</item>
+        <item>USB Camera</item>
+    </string-array>
+
+    <string-array name="cvbs_ids">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="csi_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="all_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="usb_ids">
+        <item>11</item>
+    </string-array>
+
+
+    <string-array name="record_formats">
+        <item>H264_TS</item>
+        <item>H265_TS</item>
+        <item>H264_MP4</item>
+        <item>H265_MP4</item>
+    </string-array>
+</resources>

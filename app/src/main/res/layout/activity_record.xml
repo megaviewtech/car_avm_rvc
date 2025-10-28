@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+    <!-- 右上角的录制时间显示 -->
+    <RelativeLayout
+        android:id="@+id/recordDurationRL"
+        android:layout_margin="20dp"
+        android:layout_gravity="top|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/recordDurationTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/holo_red_light"
+            android:text="@string/record_init_time"
+            android:layout_marginRight="10dp"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/recordDurationIV"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/recordDurationTV"
+            android:background="@drawable/ic_fiber_manual_record_red_600_48dp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/previewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <include
+        layout="@layout/float_layout"/>
+
+    <!-- 底部控制栏 -->
+    <!--<LinearLayout-->
+    <!--android:id="@+id/recordCtl"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--&lt;!&ndash; 录制 &ndash;&gt;-->
+    <!--<ImageButton-->
+    <!--android:id="@+id/recordBtn"-->
+    <!--android:layout_width="@dimen/icon_width"-->
+    <!--android:layout_height="@dimen/icon_height"-->
+    <!--android:src="@drawable/ic_fiber_manual_record_grey_400_48dp"-->
+    <!--android:background="@drawable/bg_button_left" />-->
+
+    <!--&lt;!&ndash; 锁定 &ndash;&gt;-->
+    <!--<ImageButton-->
+    <!--android:id="@+id/recordLockBtn"-->
+    <!--android:layout_width="@dimen/icon_width"-->
+    <!--android:layout_height="@dimen/icon_height"-->
+    <!--android:src="@drawable/ic_lock_open_grey_400_48dp"-->
+    <!--android:background="@drawable/bg_button_center" />-->
+
+    <!--&lt;!&ndash; 拍照 &ndash;&gt;-->
+    <!--<ImageButton-->
+    <!--android:id="@+id/takePictureBtn"-->
+    <!--android:layout_width="@dimen/icon_width"-->
+    <!--android:layout_height="@dimen/icon_height"-->
+    <!--android:src="@drawable/ic_camera_alt_grey_400_48dp"-->
+    <!--android:background="@drawable/bg_button_center" />-->
+
+    <!--&lt;!&ndash; 查看视频文件 &ndash;&gt;-->
+    <!--<ImageButton-->
+    <!--android:id="@+id/videoFileBtn"-->
+    <!--android:layout_width="@dimen/icon_width"-->
+    <!--android:layout_height="@dimen/icon_height"-->
+    <!--android:src="@drawable/ic_local_movies_grey_400_48dp"-->
+    <!--android:background="@drawable/bg_button_center" />-->
+
+    <!--&lt;!&ndash; 录像设置 &ndash;&gt;-->
+    <!--<ImageButton-->
+    <!--android:id="@+id/recordSettingsBtn"-->
+    <!--android:layout_width="@dimen/icon_width"-->
+    <!--android:layout_height="@dimen/icon_height"-->
+    <!--android:src="@drawable/ic_settings_grey_400_48dp"-->
+    <!--android:background="@drawable/bg_button_right" />-->
+    <!--</LinearLayout>-->
+
+
+    <!-- 3d return -->
+    <RelativeLayout
+        android:id="@+id/retCtrl"
+        android:layout_margin="0dp"
+        android:layout_gravity="top|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/retBtn"
+            android:layout_width="72dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ret" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/captureCtrl"
+        android:layout_margin="0dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/captureBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_center"
+            android:src="@drawable/capture" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/colorCtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <ImageButton
+            android:id="@+id/blackBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/black"/>
+
+
+        <ImageButton
+            android:id="@+id/whiteBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/white"/>
+
+
+        <ImageButton
+            android:id="@+id/blueBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/blue"/>
+
+        <ImageButton
+            android:id="@+id/redBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/red"/>
+
+        <ImageButton
+            android:id="@+id/grayBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/gray"/>
+
+        <ImageButton
+            android:id="@+id/yellowBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/yellow"/>
+
+        <ImageButton
+            android:id="@+id/blue2Btn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/blue2"/>
+
+        <ImageButton
+            android:id="@+id/greenBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/green"/>
+
+        <ImageButton
+            android:id="@+id/pinkBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/pink"/>
+
+        <ImageButton
+            android:id="@+id/brownBtn"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="@dimen/icon_height"
+            android:background="@android:color/transparent"
+            android:src="@drawable/brown"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/PreCtrl"
+        android:layout_margin="0dp"
+        android:layout_gravity="center_vertical|left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/PreBtn"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/pre" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/NextCtrl"
+        android:layout_margin="0dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/NextBtn"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/testTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/holo_red_light"
+        android:text=""
+        android:layout_marginRight="10dp"
+        android:textSize="22sp" />
+
+</FrameLayout>
+

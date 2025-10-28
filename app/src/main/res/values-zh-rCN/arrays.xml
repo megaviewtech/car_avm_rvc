@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="picture_quality">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="picture_quality_name">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="record_quality">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="record_quality_name">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="record_duration">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+
+    <array name="record_duration_name">
+        <item>1min</item>
+        <item>2min</item>
+        <item>3min</item>
+    </array>
+    <array name="file_one_tab">
+        <item>视频</item>
+<!--        <item>紧急视频</item>
+        <item>照片</item>-->
+    </array>
+
+    <array name="file_two_tab">
+        <item>前路视频</item>
+        <item>后路视频</item>
+        <item>紧急视频</item>
+        <item>照片</item>
+    </array>
+
+    <array name="file_four_tab">
+        <item>前路视频</item>
+        <item>后路视频</item>
+        <item>左路视频</item>
+        <item>右路视频</item>
+        <item>紧急视频</item>
+        <item>照片</item>
+    </array>
+
+    <array name="settings_common_tab">
+        <item>设置</item>
+    </array>
+    <array name="settings_one_tab">
+        <item>设置</item>
+        <item>前摄像头</item>
+    </array>
+
+    <array name="settings_two_tab">
+        <item>设置</item>
+        <item>前摄像头</item>
+        <item>后摄像头</item>
+    </array>
+
+    <array name="settings_four_tab">
+        <item>通用设置</item>
+        <item>前摄像头</item>
+        <item>后摄像头</item>
+        <item>左摄像头</item>
+        <item>右摄像头</item>
+    </array>
+</resources>

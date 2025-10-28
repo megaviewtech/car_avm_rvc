@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fitsSystemWindows="true">
+
+
+    <FrameLayout
+        android:id="@+id/clothCtrl"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    </FrameLayout>
+
+
+
+
+    <FrameLayout
+        android:id="@+id/cornerFL"
+        android:background="@drawable/cloth"
+        android:layout_gravity="top|left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/crossBtn0"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g1" />
+
+        <ImageButton
+            android:id="@+id/crossBtn1"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g2" />
+        <ImageButton
+            android:id="@+id/crossBtn2"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g3" />
+        <ImageButton
+            android:id="@+id/crossBtn3"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g4" />
+        <ImageButton
+            android:id="@+id/crossBtn4"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g5" />
+        <ImageButton
+            android:id="@+id/crossBtn5"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g6" />
+
+        <ImageButton
+            android:id="@+id/crossBtn6"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g7" />
+        <ImageButton
+            android:id="@+id/crossBtn7"
+            android:layout_marginTop="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/cross_g8" />
+
+        <ImageButton
+            android:id="@+id/imgBtn1"
+            android:layout_marginTop="928px"
+            android:layout_marginLeft="0px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/top_gray" />
+
+        <ImageButton
+            android:id="@+id/imgBtn2"
+            android:layout_marginTop="928px"
+            android:layout_marginLeft="160px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/bottom_gray" />
+
+        <ImageButton
+            android:id="@+id/imgBtn3"
+            android:layout_marginTop="928px"
+            android:layout_marginLeft="320px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/left_gray" />
+
+        <ImageButton
+            android:id="@+id/imgBtn4"
+            android:layout_marginTop="928px"
+            android:layout_marginLeft="480px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/right_gray" />
+
+        <ImageButton
+            android:id="@+id/retBtn"
+            android:layout_marginTop="0px"
+            android:layout_marginLeft="0px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ret" />
+
+        <ImageButton
+            android:id="@+id/detectBtn"
+            android:layout_marginTop="828px"
+            android:layout_marginLeft="1000px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_center"
+            android:src="@drawable/search" />
+
+        <ImageButton
+            android:id="@+id/debugBtn"
+            android:layout_marginTop="828px"
+            android:layout_marginLeft="1400px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_center"
+            android:src="@drawable/debug" />
+
+        <ImageButton
+            android:id="@+id/topBtn"
+            android:layout_marginTop="0px"
+            android:layout_marginLeft="1050px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/up" />
+
+
+
+        <ImageButton
+            android:id="@+id/downBtn"
+            android:layout_marginTop="300px"
+            android:layout_marginLeft="1050px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/down" />
+
+        <ImageButton
+            android:id="@+id/leftBtn"
+            android:layout_marginTop="75px"
+            android:layout_marginLeft="770px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/rightBtn"
+            android:layout_marginTop="75px"
+            android:layout_marginLeft="1330px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/right" />
+
+        <ImageButton
+            android:id="@+id/okBtn"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="1650px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ok" />
+
+        <ImageView
+            android:id="@+id/subPic"
+            android:layout_marginTop="0px"
+            android:layout_marginLeft="412px"
+            android:layout_width="204px"
+            android:layout_height="204px"
+
+            android:src="@drawable/blue"/>
+
+        <ImageView
+            android:id="@+id/subCross"
+
+            android:layout_marginTop="90px"
+            android:layout_marginLeft="502px"
+            android:layout_width="24px"
+            android:layout_height="24px"
+
+            android:src="@drawable/cross_red"/>
+
+    </FrameLayout>
+
+</FrameLayout>
+

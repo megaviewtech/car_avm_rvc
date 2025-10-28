@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="picture_quality">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="picture_quality_name">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="record_quality">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="record_quality_name">
+        <item>1280*720</item>
+        <item>1920*1080</item>
+    </array>
+
+    <array name="record_duration">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+
+    <array name="record_duration_name">
+        <item>1min</item>
+        <item>2min</item>
+        <item>3min</item>
+    </array>
+    <array name="file_one_tab">
+        <item>videos</item>
+<!--        <item>lock videos</item>
+        <item>photos</item>-->
+    </array>
+
+    <array name="file_two_tab">
+        <item>front videos</item>
+        <item>reverse videos</item>
+        <item>lock videos</item>
+        <item>photos</item>
+    </array>
+
+    <array name="file_four_tab">
+        <item>front videos</item>
+        <item>reverse videos</item>
+        <item>left videos</item>
+        <item>right videos</item>
+        <item>lock videos</item>
+        <item>photos</item>
+    </array>
+
+    <array name="settings_common_tab">
+        <item>common setting</item>
+    </array>
+    <array name="settings_one_tab">
+        <item>common setting</item>
+        <item>front camera</item>
+    </array>
+
+    <array name="settings_two_tab">
+        <item>common setting</item>
+        <item>front camera</item>
+        <item>reverse camera</item>
+    </array>
+
+    <array name="settings_four_tab">
+        <item>common setting</item>
+        <item>front camera</item>
+        <item>reverse camera</item>
+        <item>left camera</item>
+        <item>right camera</item>
+    </array>
+</resources>

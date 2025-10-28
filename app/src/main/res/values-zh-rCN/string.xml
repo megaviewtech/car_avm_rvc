@@ -1,0 +1,133 @@
+<resources>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="app_name">AVM</string>
+    <string name="back">返回</string>
+    <string name="record_quality">录像质量</string>
+    <string name="picture_quality">照相质量</string>
+    <string name="record_duration">录像时间</string>
+    <string name="format_sdcard">格式化SD卡</string>
+
+    <string name="default_picture_quality">1080P</string>
+    <string name="default_record_quality">1080P</string>
+    <string name="default_record_duration">1min</string>
+
+    <string name="space_not_enough">空间不足</string>
+    <string name="operating_camera">正在操作摄像头!</string>
+
+    <string name="lock_video">紧急视频</string>
+    <string name="front_video">前录视频</string>
+    <string name="back_video">后录视频</string>
+    <string name="picture">照片</string>
+
+    <string name="commont_settings">设置</string>
+    <string name="front_settings">前摄像头</string>
+    <string name="back_settings">后摄像头</string>
+
+    <string name="settings_mute">静音(录像时不录制音频)</string>
+    <string name="settings_watermark">演示模式</string>
+    <string name="settings_record_quality">视频分辨率</string>
+    <string name="settings_picture_quality">照片分辨率</string>
+    <string name="settings_record_duration">录像时间</string>
+
+    <string name="record_init_time">REC</string>
+    <string name="debug_info">选择调试布</string>
+    <string name="settings_app_auto_start">转向灯显示全景</string>
+    <string name="settings_app_emergency">双闪灯显示全景</string>
+    <string name="background_record">录像</string>
+    <string name="pre_allocation">存储预分配</string>
+    <string name="pre_allocation_info">
+        存储预分配：\n
+        介绍：录像时为每个录像文件预分配一个固定长度的存储空间。\n
+        如果存储设备的可用空间小于限制的可用空间，则会进行循环  \n
+        删除文件的操作。\n
+        优点：预分配功能会减少存储设备碎片的产生，长时间录像不会 \n
+        导致存储设备的性能下降。\n
+        注意事项：\n
+        1.暂时只支持FAT32格式的存储卡；\n
+        2.选择DVR类型后需要格式化存储设备；\n
+        3.由于每种摄像头的分辨率、比特率、录像时常不一样，所以\n
+        预分配的文件大小不一样。因为这个原因在切换分辨率和时常\n
+        后需要格式化存储设备。
+    </string>
+    <string name="settings_file_storage_path">文件存储路径</string>
+    <string name="dvr_type_choice">DVR类型选择</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_choice_camera">ChoiceCameraActivity</string>
+    <string name="message_granted">已经获取所有权限.</string>
+    <string name="message_denied">未获取 \"%1$s\" 权限.</string>
+    <string name="dvr_init">DVR初始化中...</string>
+    <string name="init_error">DVR初始化失败!</string>
+    <string name="camera_permission_error">没有摄像头操作权限</string>
+    <string name="sure">确认</string>
+    <string name="start_record">开始录像</string>
+    <string name="record_system_error">录像失败，请重启应用</string>
+    <string name="record_storage_error">录像失败，请检查存储设备</string>
+    <string name="record_init_error">录像初始化失败！</string>
+    <string name="storage_not_enough">存储空间不够，请清理</string>
+    <string name="storage_not_exit">请插入存储卡</string>
+    <string name="no_storage_permission">没有存储权限</string>
+    <string name="preview_failed">系统异常，预览失败</string>
+    <string name="preview_failed2">请插入CVBS摄像头</string>
+    <string name="format_failed">格式化超时</string>
+    <string name="open_camera_failed">打开摄像头失败</string>
+    <string name="take_picture_failed">拍照失败</string>
+    <string name="take_picture_success">拍照成功</string>
+    <string name="format_sdcard_alert">使用预分配录像功能，需要格式化外部SD卡，是否格式化外部SD卡？</string>
+    <string name="please_wait">请稍等</string>
+
+    <string name="exit_app_alert">请确认是否退出程序</string>
+    <string name="backstage_run">后台运行</string>
+
+    <string-array name="choice_type">
+        <item>单路摄像头</item>
+        <item>两路摄像头</item>
+        <item>四路CVBS摄像头</item>
+        <item>四路CSI摄像头</item>
+        <item>四路拼接CVBS摄像头</item>
+        <item>四路拼接CSI摄像头</item>
+        <item>两路双拼接CSI摄像头</item>
+        <item>双节点USB摄像头</item>
+        <item>双节点USB摄像头+单节点摄像头</item>
+    </string-array>
+
+    <string-array name="cvbs_ids">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="csi_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="all_ids">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="usb_ids">
+        <item>11</item>
+    </string-array>
+
+
+    <string-array name="record_formats">
+        <item>H264_TS</item>
+        <item>H265_TS</item>
+        <item>H264_MP4</item>
+        <item>H265_MP4</item>
+    </string-array>
+</resources>
