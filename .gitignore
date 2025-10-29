@@ -1,0 +1,18 @@
+# Android / Java
+*.iml
+*.class
+*.jar
+
+# Gradle
+build/
+.gradle/
+
+
+#
+*.log
+*.tmp
+*.swp
+
+# OS нд╪Ч
+.DS_Store
+Thumbs.db
