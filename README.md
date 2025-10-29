@@ -49,10 +49,9 @@ cd car-avm-rvc
 
 ## ✍️ Author & Contact
 
-**iglgum**  
 📧 Email: [lg_niat@126.com](mailto:lg_niat@126.com)  
 💻 GitHub: [megaviewtech](https://github.com/megaviewtech)  
-<img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/6f881b05-7722-4e00-a620-86f619e362fd" />
+<img width="24" height="24" alt="image" src="https://github.com/user-attachments/assets/6f881b05-7722-4e00-a620-86f619e362fd" />
  WeChat: 13632737980
 
 
