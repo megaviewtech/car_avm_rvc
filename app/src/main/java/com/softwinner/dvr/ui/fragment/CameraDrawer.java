@@ -154,7 +154,7 @@ public class CameraDrawer implements GLSurfaceView.Renderer,AVM.OnSignalListener
                 Log.i(TAG, "SetCar: "+ret);
                 ret = AVM.SetCar(carNameArray[i] + "_color01" + ".obj", 1);
                 Log.i(TAG, "SetCar: "+ret);
-               ret = AVM.SetCar(carNameArray[i] + "_color02" + ".obj", 1);
+                ret = AVM.SetCar(carNameArray[i] + "_color02" + ".obj", 1);
                 Log.i(TAG, "SetCar: "+ret);
                 ret = AVM.SetCar(carNameArray[i] + "_color03" + ".obj", 1);
                 Log.i(TAG, "SetCar: "+ret);
